@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+}
+
+header h1 a {
+    color: green;
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 1px solid #999;
+    display: flex;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
+.post-entry {
+    margin-bottom: 2rem;
+}
+.post-entry h2 a,
+.post-entry h2 a:visited{
+    color: green;
+    margin: .5rem 0;
+    text-decoration: none;
+    
+}
+.post-entry h2 a:hover{
+    background-color: blueviolet;
+    color: yellow;
+}
+.post-display {
+    background-color: antiquewhite;
+    color: blue;
+}
